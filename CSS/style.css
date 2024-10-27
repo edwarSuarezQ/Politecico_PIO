@@ -38,3 +38,11 @@ body{
 ol{
     padding-left: 20px;
 }
+
+aside{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}

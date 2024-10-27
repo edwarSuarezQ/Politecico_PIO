@@ -5,7 +5,7 @@
 ### Objetivo:
 Los estudiantes utilizarán sus habilidades en HTML para crear una página web dedicada a su artista favorito, incluyendo la imagen de portada de un álbum y una lista de las canciones de ese álbum.
 
-## #Instrucciones:
+### Instrucciones:
 Selecciona un Artista y un Álbum o varios: Cada estudiante debe elegir su artista musical favorito y uno de sus álbumes.
 
 Estructura de la Página: Utilizando HTML, deben crear una página que contenga lo siguiente:

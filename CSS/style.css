@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 body{
@@ -14,14 +15,45 @@ body{
     background-color: gray;
     text-align: center;
     padding: 10px;
+
 }
 
-#titulo{
+.header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.bio,.album-info{
+    max-width: 800px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.album-info img{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1{
+    font-size: 2em;
+    margin-bottom: 10px;
     color: white;
 }
 
-.texto{
-    color: white;
+.tracklist{
+    padding-left: 20px;
 }
 
 .footer{
@@ -31,18 +63,15 @@ body{
     margin-top: auto;
 }
 
-.div{
-    margin: 80px;
-}
-
-ol{
-    padding-left: 20px;
-}
-
 aside{
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     margin-top: auto;
+}
+
+a{
+    color: rgb(15, 133, 211);
+    text-decoration: none;
 }
